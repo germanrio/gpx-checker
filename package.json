@@ -1,0 +1,31 @@
+{
+  "name": "gpx-checker",
+  "version": "1.0.0",
+  "description": "Library to check whether gpx tracks have been recorded properly",
+  "bin": {
+    "gpx-checker": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "mocha -w -d -R spec",
+    "test": "mocha -R spec",
+    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
+    "covSave": "coveralls < coverage/lcov.info"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/germanrio/gpx-checker.git"
+  },
+  "author": {
+    "name": "German RIO",
+    "email": "german@germanrio.es",
+    "url": "http://www.germanrio.es"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "lib",
+    "LICENSE"
+  ]
+}
