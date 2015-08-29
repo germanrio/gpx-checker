@@ -16,6 +16,6 @@ var argv = yargs
     .argv;
 
 gpsChecker({
-  file: argv._[0],
+  filePath: argv._[0],
   output: argv.output
 });
