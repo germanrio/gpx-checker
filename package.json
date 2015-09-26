@@ -7,12 +7,6 @@
   },
   "preferGlobal": true,
   "main": "lib/index.js",
-  "scripts": {
-    "start": "mocha -w -d -R spec",
-    "test": "mocha -R spec",
-    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
-    "covSave": "coveralls < coverage/lcov.info"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/germanrio/gpx-checker.git"
