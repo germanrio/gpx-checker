@@ -11,11 +11,17 @@ var argv = yargs
       describe: 'Output file path to save corrected track',
       type: 'string'
     })
+    .option('maxDistance', {
+      alias: 'm',
+      describe: 'Maximun distance between successive track points in meters',
+      type: 'string'
+    })
     .help('help')
     .alias('h', 'help')
     .argv;
 
 gpsChecker({
   filePath: argv._[0],
-  output: argv.output
+  output: argv.output,
+  maxDistance: parseInt(argv.maxDistance)
 });
