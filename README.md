@@ -1,5 +1,10 @@
 # Gpx Checker
 
+[![NPM Version][npmImg]][npmUrl]
+
+[npmImg]: https://img.shields.io/npm/v/gpx-checker.svg
+[npmUrl]: https://npmjs.org/package/gpx-checker
+
 This command helps you to detect possible errors while recording your gpx tracks.
 
 It checks the following:
