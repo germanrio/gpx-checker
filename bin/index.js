@@ -16,6 +16,11 @@ var argv = yargs
       describe: 'Maximun distance between successive track points in meters',
       type: 'string'
     })
+    .option('delete', {
+      alias: 'd',
+      describe: 'Track point indexes you want to delete from the track',
+      type: 'array'
+    })
     .help('help')
     .alias('h', 'help')
     .argv;
@@ -23,5 +28,6 @@ var argv = yargs
 gpsChecker({
   filePath: argv._[0],
   output: argv.output,
-  maxDistance: parseInt(argv.maxDistance)
+  maxDistance: parseInt(argv.maxDistance),
+  delete: argv.delete
 });
