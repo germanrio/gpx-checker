@@ -14,3 +14,9 @@ It checks the following:
 
 ## Usage
 `gpx-checker <gpxFile>`
+
+
+## Command Options
+**--maxDistance** Allows to set the maximum distance between two successive track points.
+
+**--delete** Allows to remove from the track the points in the indexes specified.
