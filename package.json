@@ -1,6 +1,6 @@
 {
   "name": "gpx-checker",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Library to check whether gpx tracks have been recorded properly",
   "bin": {
     "gpx-checker": "bin/index.js"
