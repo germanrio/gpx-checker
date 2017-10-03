@@ -11,6 +11,8 @@ It checks the following:
 1. That all the waypoint times are in the track segments intervals.
 2. Distance between two successive track points is not bigger than a max.
 
+Also allows to delete points from the track cleanly, this is, without adding other information about the application used to do the removal.
+
 
 ## Usage
 `gpx-checker <gpxFile> [options]`

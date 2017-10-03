@@ -19,12 +19,12 @@ var argv = yargs
     })
     .option('delete', {
       alias: 'd',
-      describe: 'Track point indexes you want to delete from the track. E.g. 48',
+      describe: 'Track point indexes you want to delete from the track (zero-based). E.g. 48',
       type: 'array'
     })
     .option('deleteRange', {
       alias: 'r',
-      describe: 'Range of track point indexes you want to delete from the track. E.g. 56-89',
+      describe: 'Range of track point indexes you want to delete from the track (zero-based). E.g. 56-89',
       type: 'string'
     })
     .help('help')

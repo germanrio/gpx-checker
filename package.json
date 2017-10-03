@@ -23,11 +23,11 @@
     "LICENSE"
   ],
   "dependencies": {
-    "bluebird": "^2.9.34",
+    "bluebird": "^3.5.0",
     "gps-distance": "0.0.4",
-    "lodash": "^3.10.1",
-    "moment": "^2.10.6",
-    "xml2js": "^0.4.10",
-    "yargs": "^3.18.0"
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "xml2js": "^0.4.19",
+    "yargs": "^9.0.1"
   }
 }
