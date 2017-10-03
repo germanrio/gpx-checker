@@ -32,7 +32,7 @@ var argv = yargs
     .argv;
 
 // Manage delete range or delete points
-var deleteArg = argv.delete;
+var deleteArg = argv.delete && argv.delete.map(Number);
 if (argv.deleteRange) {
   var range = argv.deleteRange.split('-');
   deleteArg = _.range(Number(range[0]), Number(range[1]) + 1, 1);
